@@ -50,7 +50,7 @@ section {
 }
 
 .service-img-horizontal {
-    width: 200px;
+    width: 45%;
     height: auto;
 }
 
@@ -67,7 +67,7 @@ section {
 }
 
 .service-img-vertical {
-    width: 150px;
+    width: 45%;
     height: auto;
 }
 
