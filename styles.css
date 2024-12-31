@@ -45,7 +45,7 @@ section {
 }
 
 .service-img-horizontal {
-    width: 147%;  /* 3 times larger */
+    width: 70%;  /* Adjusted size */
     height: auto;
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 .service-img-vertical {
-    width: 147%;  /* 3 times larger */
+    width: 70%;  /* Adjusted size */
     height: auto;
 }
 
