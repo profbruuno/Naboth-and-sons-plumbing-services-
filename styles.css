@@ -37,16 +37,29 @@ section {
     padding: 20px;
 }
 
-#images-box {
+#images-above-about {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-img-horizontal {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+}
+
+#images-above-contact {
     text-align: center;
     margin-bottom: 20px;
 }
 
 .image-container {
     display: inline-block;
+    margin: 10px;
 }
 
-.service-img {
+.service-img-vertical {
     width: 150px;
     height: auto;
     margin: 10px;
