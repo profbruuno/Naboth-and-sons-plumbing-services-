@@ -42,11 +42,16 @@ section {
     margin-bottom: 20px;
 }
 
+.image-container-horizontal {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
+}
+
 .service-img-horizontal {
     width: 200px;
     height: auto;
-    margin: 10px;
-    display: inline-block;
 }
 
 #images-above-contact {
@@ -54,16 +59,16 @@ section {
     margin-bottom: 20px;
 }
 
-.image-container {
-    display: inline-block;
-    margin: 10px;
+.image-container-vertical {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .service-img-vertical {
     width: 150px;
     height: auto;
-    margin: 10px;
-    display: inline-block;
 }
 
 footer {
