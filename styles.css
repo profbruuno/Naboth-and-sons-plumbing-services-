@@ -38,36 +38,33 @@ section {
 }
 
 #images-above-about {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.image-container-horizontal {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 50%;
+    margin: 20px auto;
+    width: 80%;
 }
 
 .service-img-horizontal {
-    width: 45%;
+    width: 48%;
     height: auto;
 }
 
 #images-above-contact {
-    text-align: center;
-    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 80%;
 }
 
 .image-container-vertical {
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
-    width: 50%;
+    width: 48%;
 }
 
 .service-img-vertical {
-    width: 45%;
+    width: 48%;
     height: auto;
 }
 
