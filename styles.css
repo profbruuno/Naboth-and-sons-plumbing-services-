@@ -39,10 +39,10 @@ section {
 
 #images-above-about {
     display: flex;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
     width: 100%;
+    gap: 0;  /* No space between images */
 }
 
 .service-img-horizontal {
@@ -67,7 +67,7 @@ section {
 }
 
 .service-img-vertical {
-    width: 49%;
+    width: 48%;
     height: auto;
 }
 
