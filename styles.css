@@ -12,6 +12,11 @@ header {
     text-align: center;
 }
 
+#logo {
+    width: 100px;
+    height: auto;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -30,6 +35,19 @@ nav ul li a {
 
 section {
     padding: 20px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.service-img {
+    width: 150px;
+    height: auto;
+    margin: 10px;
 }
 
 footer {
