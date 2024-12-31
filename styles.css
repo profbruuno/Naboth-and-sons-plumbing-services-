@@ -1,94 +1,73 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-#logo {
-    width: 100px;
-    height: auto;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    background-color: #f8f9fa;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-section {
-    padding: 20px;
-}
-
-#images-above-about {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px auto;
-    width: 80%;
-}
-
-.service-img-horizontal {
-    width: 45%;
-    height: auto;
-}
-
-#images-above-contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 10px auto;
-    width: 80%;
-}
-
-.image-container-vertical {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.service-img-vertical {
-    width: 45%;
-    height: auto;
-}
-
-footer {
-    background-color: #007bff;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form label {
-    margin: 10px 0 5px;
-}
-
-form input, form textarea, form button {
-    padding: 10px;
-    margin-bottom: 10px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NABOTH AND SONS PLUMBING SERVICES</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="image1.png" alt="NABOTH AND SONS PLUMBING SERVICES Logo" id="logo">
+        <h1>Welcome to NABOTH AND SONS PLUMBING SERVICES</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="images-above-about">
+        <div class="image-container-horizontal">
+            <img src="image2.png" alt="Service Image 2" class="service-img-horizontal">
+            <img src="image3.png" alt="Service Image 3" class="service-img-horizontal">
+        </div>
+    </section>
+    <section id="home">
+        <h2>About Us</h2>
+        <p>We offer top-notch plumbing services.</p>
+    </section>
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Leak Repairs</li>
+            <li>Drain Cleaning</li>
+            <li>Pipe Installation and Repair</li>
+            <li>Water Heater Services</li>
+            <li>Sewer Line Services</li>
+            <li>Fixture Installation</li>
+            <li>Garbage Disposal Repair and Installation</li>
+            <li>Water Filtration Systems</li>
+            <li>Hydro Jetting</li>
+            <li>Backflow Prevention</li>
+        </ul>
+    </section>
+    <section id="images-above-contact">
+        <div class="image-container-vertical">
+            <img src="image4.png" alt="Service Image 4" class="service-img-vertical">
+            <img src="image5.png" alt="Service Image 5" class="service-img-vertical">
+        </div>
+        <div class="image-container-vertical">
+            <img src="image6.png" alt="Service Image 6" class="service-img-vertical">
+            <img src="image7.png" alt="Service Image 7" class="service-img-vertical">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 NABOTH AND SONS PLUMBING SERVICES. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
