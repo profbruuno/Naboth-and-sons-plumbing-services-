@@ -45,7 +45,7 @@ section {
 }
 
 .service-img-horizontal {
-    width: 49%;
+    width: 147%;  /* 3 times larger */
     height: auto;
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 .service-img-vertical {
-    width: 49%;
+    width: 147%;  /* 3 times larger */
     height: auto;
 }
 
