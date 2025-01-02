@@ -69,14 +69,17 @@ section {
 
 .image-container-vertical {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .service-img-vertical {
-    width: 48%;
+    width: 50%;
     height: auto;
+    margin: 0 auto; /* Center the image */
 }
 
 footer {
@@ -92,35 +95,4 @@ footer {
 
 form {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 60px;
-}
-
-form label {
-    margin: 10px 0 5px;
-}
-
-form input, form textarea, form button {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-form button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #0056b3;
-}
-
-.back-arrow {
-    text-decoration: none;
-    color: white;
-    font-size: 24px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-}
+    flex[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/EleanorEllingson/web-dev/tree/b2f2a382e77a20fd6895677c8b8f402ac4bae352/7-bank-project%2F1-template-route%2Ftranslations%2FREADME.ko.md?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "1")[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/STEP0HEN/meal-app/tree/c39e16db39eccd15f3f5f09517667554d3f5957a/src%2Ffrontend%2Fpages%2Fmeal.js?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "2")[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/CarlNierves/CarlNierves.github.io/tree/faf325f68517f148ef66653d9dbd3488d7e85b91/index.php?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "3")[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/Gichunga/kagnyand/tree/1e5eeba97c5b0f8ba22d682de828939ed13c21cc/dummy_web%2Fimages.php?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "4")[43dcd9a7-70db-4a1f-b0ae-981daa162054](https://github.com/melenJD/imageServer/tree/ea8a3090f843a91609d4e08e320ed265377c8fc7/php%2Fmain.php?citationMarker=43dcd9a7-70db-4a1f-b0ae-981daa162054 "5")
