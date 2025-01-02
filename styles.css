@@ -61,24 +61,16 @@ section {
     padding: 20px;
 }
 
-.service-img-horizontal {
-    width: 100%;
-    height: auto;
-}
-
-.image-container-vertical {
+#images-above-about, #images-above-contact {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
-.service-img-vertical {
-    width: 50%;
+.service-img-horizontal, .service-img-vertical {
+    width: 48%;
     height: auto;
-    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 footer {
