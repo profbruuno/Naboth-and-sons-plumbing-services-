@@ -67,6 +67,12 @@ section {
     flex-wrap: wrap;
 }
 
+.image-container-horizontal, .image-container-vertical {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .service-img-horizontal, .service-img-vertical {
     width: 48%;
     height: auto;
