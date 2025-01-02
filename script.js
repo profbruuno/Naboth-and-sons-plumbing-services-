@@ -10,4 +10,15 @@ document.addEventListener("DOMContentLoaded", function() {
             event.preventDefault();
         }
     });
+
+    const hamburgerMenu = document.querySelector(".hamburger-menu");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburgerMenu.addEventListener("click", function() {
+        if (navLinks.style.display === "flex") {
+            navLinks.style.display = "none";
+        } else {
+            navLinks.style.display = "flex";
+        }
+    });
 });
