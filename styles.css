@@ -18,89 +18,45 @@ header {
     height: auto;
 }
 
-nav ul {
+h1 {
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-links, .image-links {
+    display: none;
+    flex-direction: column;
     list-style: none;
     padding: 0;
-    background-color: #f8f9fa;
+    margin: 0;
+    text-align: center;
+}
+
+.hamburger-menu {
     display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.hamburger {
-    display: none;
-    font-size: 30px;
+    flex-direction: column;
     cursor: pointer;
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    margin-top: 10px;
 }
 
-.menu {
-    display: none;
-}
-
-.menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
     background-color: white;
+    margin: 4px 0;
 }
 
-.menu ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+.image-links li {
+    margin: 10px 0;
 }
 
-.menu ul li img {
-    max-width: 100%;
-}
-
-section {
-    padding: 20px;
-}
-
-#images-above-about {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    gap: 0;
-}
-
-.service-img-horizontal {
-    width: 50%;
-    height: auto;
-    margin: 0;
-}
-
-#images-above-contact {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px auto;
-    width: 80%;
-}
-
-.image-container-vertical {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.service-img-vertical {
-    width: 48%;
+.image-links img {
+    width: 100px;
     height: auto;
 }
 
@@ -108,8 +64,8 @@ footer {
     background-color: #007bff;
     color: white;
     text-align: center;
-    padding: 10px;  /* Increased padding */
-    height: 40px;  /* Increased height */
+    padding: 10px;
+    height: 40px;
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -118,7 +74,7 @@ footer {
 form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;  /* Added margin to space the form from the footer */
+    margin-bottom: 60px;
 }
 
 form label {
@@ -139,29 +95,4 @@ form button {
 
 form button:hover {
     background-color: #0056b3;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-    .hamburger {
-        display: block;
-    }
-
-    nav ul {
-        display: none;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .menu.show {
-        display: block;
-        position: absolute;
-        top: 60px;
-        right: 20px;
-        background-color: white;
-        border: 1px solid #ddd;
-        z-index: 1000;
-    }
 }
