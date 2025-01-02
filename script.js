@@ -10,13 +10,4 @@ document.addEventListener("DOMContentLoaded", function() {
             event.preventDefault();
         }
     });
-
-    const hamburgerMenu = document.querySelector(".hamburger-menu");
-    const navLinks = document.querySelector(".nav-links");
-    const imageLinks = document.querySelector(".image-links");
-
-    hamburgerMenu.addEventListener("click", function() {
-        navLinks.style.display = navLinks.style.display === "flex" ? "none" : "flex";
-        imageLinks.style.display = imageLinks.style.display === "flex" ? "none" : "flex";
-    });
 });
