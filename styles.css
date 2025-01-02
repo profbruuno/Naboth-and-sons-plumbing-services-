@@ -34,12 +34,6 @@ nav {
 
 .nav-links, .image-links {
     display: none;
-    flex-direction: column;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    background-color: #007bff;
 }
 
 .hamburger-menu {
@@ -61,6 +55,27 @@ nav {
 
 .image-links img {
     width: 100px;
+    height: auto;
+}
+
+section {
+    padding: 20px;
+}
+
+.service-img-horizontal {
+    width: 100%;  /* Fit within the content width */
+    height: auto;
+}
+
+.image-container-vertical {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.service-img-vertical {
+    width: 48%;
     height: auto;
 }
 
@@ -98,5 +113,20 @@ form button {
 }
 
 form button:hover {
+    background-color: #0056b3;
+}
+
+.back-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.back-button:hover {
     background-color: #0056b3;
 }
