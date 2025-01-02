@@ -16,9 +16,8 @@ header {
 #logo {
     width: 100px;
     height: auto;
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 h1 {
@@ -63,7 +62,7 @@ section {
 }
 
 .service-img-horizontal {
-    width: 100%;  /* Fit within the content width */
+    width: 100%;
     height: auto;
 }
 
@@ -79,7 +78,7 @@ section {
 .service-img-vertical {
     width: 50%;
     height: auto;
-    margin: 0 auto; /* Center the image */
+    margin: 0 auto;
 }
 
 footer {
