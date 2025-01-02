@@ -16,16 +16,20 @@ header {
 #logo {
     width: 100px;
     height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 
 h1 {
     text-transform: uppercase;
+    margin: 0;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
 }
 
 .nav-links, .image-links {
@@ -35,13 +39,13 @@ nav {
     padding: 0;
     margin: 0;
     text-align: center;
+    background-color: #007bff;
 }
 
 .hamburger-menu {
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 .hamburger-menu .bar {
