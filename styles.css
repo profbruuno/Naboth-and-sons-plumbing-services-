@@ -59,7 +59,7 @@ nav {
 }
 
 .image-links img {
-    width: 180px;
+    width: 100px;
     height: auto;
 }
 
@@ -80,7 +80,7 @@ section {
 }
 
 .service-img-horizontal, .service-img-vertical {
-    width: 48%;
+    width: 100%; /* Fill the entire width */
     height: auto;
     margin-bottom: 20px;
 }
@@ -141,7 +141,7 @@ form button:hover {
 }
 
 .service-img-vertical {
-    width: 50%;
+    width: 100%; /* Fill the entire width */
     height: auto;
     margin-bottom: 10px;
 }
