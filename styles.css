@@ -79,7 +79,13 @@ section {
     width: 100%;
 }
 
-.service-img-horizontal, .service-img-vertical {
+.service-img-horizontal {
+    width: 48%; /* Adjust width to ensure they fit within content */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-img-vertical {
     width: 100%; /* Fill the entire width */
     height: auto;
     margin-bottom: 20px;
